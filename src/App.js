@@ -32,7 +32,7 @@ function App() {
       body: JSON.stringify(favorites)
     })
     .then((res) => {
-      console.log(res);
+      alert(res.body);
     })
   }
 

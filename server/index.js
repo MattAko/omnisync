@@ -40,5 +40,7 @@ app.post('/post', (req, res) => {
         }
     })
 
-    
+    res.send('Export complete, check server/favorites.json to see the export');
+
+
 })
